@@ -1,0 +1,18 @@
+1 - Para que serve a engenharia de software?
+
+R: É o planejamento e o controle da execução, desde seu nascimento até sua obsolecência, de um sistema complexo, feito de forma profissional.
+
+--------------------------------------------------------------------------------------
+
+2.a - Procurar Falhas de software que ocorreram
+ 
+	- No fleury, no meio do ano passado, teve um problema no login do SAP da empresa, onde ocorreu um ataque hacker, causando assim, um grande custo para eles.
+	
+--------------------------------------------------------------------------------------
+
+2.b - Procurar que tipo de problema pode ser evitado com a engenharia de software
+
+	- Falha de lógica na programação;
+	- Incosistencia no software;
+	- Qualidade na entrega da informação;
+	- Insatisfação do cliente com o produto final.

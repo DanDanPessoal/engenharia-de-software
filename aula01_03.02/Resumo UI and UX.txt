@@ -1,0 +1,41 @@
+--------------------------------------------------------------------|
+UX: User Experience						    |
+								    |
+	Pensa na experiência do usuário de maneira geral.	    |
+								    |
+	O UX trata de pessoas, não está relacionado somente         |
+        com sites, aplicativos, e programas.			    |
+								    |
+		- Como o usuário se sente utilizando um		    |
+	    	produto ou serviço.				    |
+		- Como o usuário utiliza mu produto ou serviço.     |
+		- Como o usuário consegue fazer o que precisa.	    |
+								    |
+---------------------------------------				    |
+UI: User Interface						    |
+								    |
+	Pensa na interação do usuário com o software.		    |
+								    |	
+	O UI trata de como o usuário vai ver a informação, como	    |
+	deve funcionar as funcionalidades do programa.		    |
+								    |	
+		- A empatia é importante para o UI, você tem que    |
+		se colocar no lugar do outro e entender suas dores  |
+								    |
+---------------------------------------				    |
+Diferenças entre eles:						    |
+								    |
+	UX: 							    |	
+		- Desing de interação;				    |
+	    	- Wireframes e protoripos;			    |
+		- Arquitetura da informação;			    |
+		- Pesquisa do usuário;				    |
+		- Cenários.					    |
+	UI							    |
+		- Design visual;				    |
+		- Cores e marcas;				    |
+		- Design graficos;				    |
+		- Layouts;					    |
+		- Tipografia.					    |
+								    |
+--------------------------------------------------------------------|
