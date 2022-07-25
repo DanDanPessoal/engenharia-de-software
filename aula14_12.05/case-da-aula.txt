@@ -1,0 +1,24 @@
+Questão 01 --->
+
+MODELO: PMBOK
+
+JUSTIFICATIVA: A descrição do case apresenta um cliente com uma ideia totalmente definida, citando prazo pra entrega,
+tecnologias que precisam ser utilizadas para integrar, escopo macro do que o projeto precisa entregar e não apresenta
+um desejo explicito que deseja passar constantemente na construção deste projeto.
+A utilização desse modelo de processos beneficia este projeto pelo fato de já ser trabalhado como um escopo definido,
+reduz a possibilidade de risco, afinal, a entrega do escopo é somente ao final do projeto, então há muito tempo de 
+testar e validar, há controle do andamento do projeto através de cronogramas além de gerar um relacionamento melhor com
+o cliente, pelo fato de serem reuniões periodicas e não aquela pressão diária para entregas.
+
+Questão 02 ---->
+
+Especificação funcional (Negócios) ----> Já está apresentada no case (o cliente já especificou)
+Especificação técnica (Arquitetos) ----> Já está apresentada no case (o cliente já especificou)
+Aprovação do cliente (Validação de escopo)----> Já está apresentada no case (o cliente já aprovou)
+Desenvolvimento do software (devs)
+Testes unitarios (devs)
+Validação com arquitetos e PO
+teste integrado
+Correção de bugs
+Teste de regressão
+Homologação e implementação

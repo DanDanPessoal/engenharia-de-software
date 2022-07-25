@@ -1,0 +1,30 @@
+Exercício extra de matriz - Jogo da Velha
+Mais um exercício de matriz (Jogo da Velha)         
+
+Escreva um programa que simula o jogo da velha.
+
+O método main deve criar uma matriz 3x3 de tipo char e uma variável boolean acabou, inicializada com false.
+
+O programa também deve ter uma variável para controlar se é o jogador 1 ou o 2 que está jogando. Depois, deve chamar o método reset (para inicializar a matriz com brancos).
+
+Em seguida, deve ficar num loop, enquanto o jogo não acabar, pedindo para o jogador 1 ou 2 fazer sua jogada.
+
+A cada jogada, o programa deve atribuir ‘X’ (jogador 1) ou ‘O’ (jogador 2) para a posição indicada pelo jogador.
+
+Se o jogador fizer uma jogada inválida (posição não existente, ou já ocupada), o programa deve informar e pedir que jogue novamente.
+
+Depois de cada jogada, o programa deve chamar o método exibe, para exibir a matriz, desenhando inclusive as bordas dos quadrinhos. E também, a cada jogada, deve chamar o método haVencedor, que verificará a matriz para ver se há vencedor.
+
+Se não houver, o main deve chamar o método haEmpate, para ver se não há empate.
+
+Se houver vencedor ou empate, o programa deve informar se houve vencedor e qual foi o vencedor ou se houve empate, e atribuir true a acabou, ou o programa deve continuar o jogo.
+
+Os métodos a serem desenvolvidos são:
+
+a. reset, que recebe a matriz e não devolve nada. Esse método deve atribuir o caractere   ‘ ‘ (branco) para todos os elementos da matriz, e deve ser chamado pelo main, no início do jogo.
+
+b. exibe, que recebe a matriz e não devolve nada. Esse método deve exibir o jogo, desenhando inclusive as bordas dos quadrinhos.
+
+c. haVencedor, de tipo boolean, que recebe a matriz. Esse método deve verificar se a 1ª posição de uma linha for diferente de branco e os elementos dessa linha forem iguais, ou se a 1ª posição de uma coluna for diferente de branco e os elementos dessa coluna forem iguais, então devolve true, pois há vencedor. Deve fazer o mesmo para as diagonais. Se nenhuma dessas condições acontecerem, deve devolver false. Se este método devolver true, o método main, que chama este método, saberá que o último jogador é o vencedor, e deverá informar isso.
+
+d. haEmpate, de tipo boolean, que recebe a matriz. Esse método deve verificar se a matriz está toda preenchida (toda diferente de brancos). Caso esteja, deve retornar true (empate). Caso não esteja, deve retornar false.

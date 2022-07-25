@@ -1,0 +1,71 @@
+Exercícios extras de matriz
+Exercícios de matriz
+
+1. Elabore um programa que cria uma matriz 5x2 de Strings. A primeira coluna deverá armazenar nomes de amigos e a segunda coluna deverá armazenar os números de telefones correspondentes (no formato String). Solicite que o usuário digita os dados para preencher a matriz. Depois, solicite que o usuário digite um nome qualquer. Pesquise o nome na matriz e exiba “Nome não encontrado”, caso o nome não esteja na matriz, ou exiba o telefone correspondente, caso o nome esteja na matriz.
+
+
+
+2. Elaborar o método exibeNum10a20, que recebe uma matriz de inteiros e exibe a quantidade de elementos existentes em cada linha, entre 10 e 20 e os valores desses elementos
+
+Elaborar o método mediaPares, que recebe uma matriz de inteiros e devolve a média dos elementos pares existentes na matriz inteira.
+
+Elaborar o método main que solicita que o usuário digite o número de linhas e o número de colunas da matriz. Depois, solicita que o usuário digite os valores dos elementos dessa matriz. Chame o método exibeNum10a20 e o método mediaPares. Exiba a média dos elementos pares da matriz.
+
+ 
+
+Exemplo:   neste exercício, o usuário é que define o tamanho da matriz.
+
+Vamos supor que o usuário escolheu uma matriz de 2 linhas e 4 colunas e inseriu os valores conforme a ilustração abaixo:
+
+1	12	13	7
+
+15	5	16	10
+
+Para a matriz exibida acima, o primeiro método exibeNum10a20, exibiria que na primeira linha há 2 números entre 10 a 20 (12 e 13), e na segunda linha, há 3 números entre 10 e 20 (15, 16 e 10)
+
+O segundo método deve somar todos os pares que há na matriz e dividir pela quantidade de pares que há na matriz.
+
+                      Pares na matriz: 12, 16 e 10 
+
+                       12 + 16 + 10 = 38
+
+                       Quantidade de pares que há na matriz: 3
+
+                       Média dos pares: 38 / 3 = 12,67
+
+
+
+3. Elaborar um programa que solicita que o usuário digite um número n, que deve ser maior do que 1 e menor do que 6. Em seguida, crie uma matriz n x n de números inteiros e solicite que o usuário digite os valores para preencher a matriz. Em seguida, calcule e exiba a soma dos elementos da diagonal principal da matriz e a soma dos elementos da diagonal secundária da matriz.
+
+Exemplo: neste exercício, também é o usuário que define o tamanho da matriz.
+
+Vamos supor que o usuário digitou n = 3.  Então a matriz será 3 x 3
+
+Vamos supor que o usuário digitou os valores conforme o desenho abaixo:
+
+1	2	3
+
+4	5	6
+
+7	8	9
+
+Os elementos da diagonal principal são: 1, 5 e 9.  Soma: 15
+
+Os elementos da diagonal secundária são 3, 5, 7.   Soma: 15
+
+
+
+4.  Elaborar um método quadradoMagico, que recebe uma matriz de inteiros e devolve true se ela for um quadrado mágico e false caso contrário. Para que seja considerado um quadrado mágico, a soma dos elementos de cada linha deve ser a mesma, e deve ser igual à soma dos elementos de cada coluna, e igual à soma dos elementos de cada diagonal.
+
+No main, leia os valores de uma matriz 3x3 e chame o método quadradoMagico para verificar se essa matriz é um quadrado mágico.
+
+Por exemplo, a matriz abaixo é considerada um quadrado mágico, pois a soma de cada linha é igual a 15, assim como a soma de cada coluna e de cada diagonal:
+
+2	7	6
+
+9	5	1
+
+4	3	8
+
+
+
